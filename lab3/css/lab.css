@@ -5,5 +5,22 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #ddc4cb;
+    border: dashed 5px
   }
+
+  p{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 1cm;}
+  
+  h3{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;}
+
+  .img-size{
+    width: 400px;
+    padding: 10px;
+    height: 400px;
+  }
+
+  h4{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: lighter;
+text-indent: 7px;}
