@@ -7,3 +7,17 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.code{
+  background-color: #404040;
+  color:white;
+  font-family: "consolas","Courier New", 'Courier New', Courier, monospace;
+  padding: 10px;
+  display: inline-block;
+  padding-right: 50px;
+  border: solid 1px gray;
+}
+
+pre{
+  white-space-collapse: pre;
+}
