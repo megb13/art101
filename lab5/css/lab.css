@@ -7,3 +7,15 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  h2{
+    color: #510f73;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  p{
+    text-indent: 2cm
+  }
+ 
+  pre{ 
+    margin-left: 2cm;
+  }
