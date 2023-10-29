@@ -1,21 +1,26 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/* index.js - Create arrays in javascript
+**Author: Megan Bustamante
+** Date: October 27, 2023
+*/
 
-// Constants
+//Task 1//
+var myTransport = ["legs", " bus", " bike", " car"]
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+var myMainRide = {
+    make: "schwinn",
+    model: "leToure",
+    color: "Gold",
+    year: 1979,
+  age:function() {
+      return 2023 - this.year;
+  }
 }
+console.log("My main ride is: " + myMainRide);
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// Task 2//
 
-// let's get this party started
-main();
+document.writeln("Kinds of transportation I use: " + myTransport +"</br>");
+
+//Try this to print?//
+document.writeln("My Main Ride: <pre>", 
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
