@@ -36,3 +36,8 @@ div{
 .photo-box img{
   width: 100%;
 }
+
+.lab-links{
+  background-color:#f1f5c7;
+  border-radius: 25px;
+}

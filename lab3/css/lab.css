@@ -6,7 +6,8 @@
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #ddc4cb;
-    border: dashed 5px
+    border: dashed 5px;
+    border-radius: 25px;
   }
 
   p{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
