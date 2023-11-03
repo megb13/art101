@@ -4,14 +4,20 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid  3px #432323;
+    border: dashed 3px #591b1b;
     background-color: #f8fadf;
-    border-style: double;
+    border-style: double ;
+    border-radius: 25px;
   }
+
+#content {
+  border-radius: 25px;
+}
 
   h1{
     text-decoration: dashed underline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
   h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
