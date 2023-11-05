@@ -1,0 +1,33 @@
+
+/* copied from lab 7 */
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border:  3px #591b1b;
+    background-color: #f8fadf;
+    border-radius: 25px;
+  }
+
+#content {
+  border-radius: 25px;
+}
+
+  h1{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+  h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: dashed underline;
+}
+h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;}
+
+  /* #links {
+    padding: 10px;
+    margin-bottom: 10px;
+    border:  3px #3fa049;
+    background-color: #676a3e;
+  } */
