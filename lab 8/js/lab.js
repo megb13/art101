@@ -17,7 +17,6 @@ nums.map(function(x){
     var functResults = x * 20
     return functResults;
 })
-
 function isEven(x){
     return(x % 2 == 0);
 }
@@ -30,9 +29,7 @@ console.log("is 1 even? ", isEven(3));
 console.log("is 2 even? ", isEven(2));
 
 var evenResult = nums.map(isEven);
-
 console.log("Test of Array evenness: ", evenResult);
-
 
 var results = nums.map(myCalculation);
 

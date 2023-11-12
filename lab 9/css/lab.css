@@ -1,0 +1,74 @@
+h1{
+    /* text-decoration: underline; */
+    font-family:copperplate;
+    text-align: center;
+    font-weight: 400;
+}
+
+h2{
+    font-family: monospace;
+    font-weight: 200;
+    text-decoration: dashed underline;
+}
+p{
+    text-indent: 1cm;
+}
+/* round edges */
+#content{
+    border-radius: 20px;
+}
+.challenge{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #c4a3c9;
+    border-radius: 15px
+ 
+}
+.problems{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #c4a3c9;
+    border-radius: 15px
+}
+
+.reflection{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #c4a3c9;
+    border-radius: 15px
+ 
+}
+.results{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #c4a3c9;
+    border-radius: 15px
+}
+
+
+
+.special1{
+    background-color: rgb(207, 61, 61);
+    color: rgb(27, 63, 51);
+    
+
+}
+
+.special2{
+    background-color: rgb(160, 198, 232);
+    color:black;
+}
+
+.special3{
+    background-color:rgb(27, 63, 51);
+    color:rgb(207, 61, 61);
+}
+
+.special4{
+    background-color: black;
+    color: rgb(160, 198, 232);
+}
