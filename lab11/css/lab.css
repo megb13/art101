@@ -1,0 +1,44 @@
+
+
+
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#content{
+    border-radius: 25px;
+    outline: dashed antiquewhite 5.5px;
+}
+
+p{
+    text-indent: 1cm;
+}
+
+#submit{
+    color: aliceblue;
+    background-color: rgb(36, 35, 35);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.my-name-is{
+    max-width: 300px;
+    position: relative;
+    max-height: fit-content;
+}
+
+.imagePart{
+    max-width: 500px;
+    max-height: 190px;
+}
+
+#output{
+    color: rgb(232, 236, 214);
+     display:flexbox;
+    align-items: center; 
+}
