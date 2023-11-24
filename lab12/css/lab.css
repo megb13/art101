@@ -1,0 +1,81 @@
+/* we can use a single css file to style all the files in our wwebsite */
+/* the main one I use for my websites stopped working so I had to copy and past everything and place it here
+/* I willl try to fix it but none of the websites have this style sheet anymore */
+
+/* you can pick your own background colors, text colors, and fonts */
+
+/* we can select an html element tag, in this case "body" will apply to the whole document */
+body {
+    background-color: #562e58;
+  }
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  /*h1,h2,h3 {
+    font-family: sans-serif;
+  }*/
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    font-family: sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #888;
+    background-color: #e5abdb;
+    border-radius: 25px;
+    outline: dashed antiquewhite 5.5px;
+
+   
+  
+  }
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #b99cbe;
+   
+  }
+  
+  #links {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  p{
+    text-indent: 1cm;
+}
+
+#linkbox{
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #888;
+    background-color: #e5abdb;
+  }
+
+h2{
+    text-decoration: dotted underline;
+}
+
+h3{ text-align: center;
+    text-decoration: dotted underline;
+}
+
+#input-output{
+    text-align: center;
+}
+
+#output{
+    text-align: center;
+}
