@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: overline underline;
+    color: rgb(73, 48, 79);
+}
+
+
+#content{
+    border-radius: 25px;
+    outline: dashed antiquewhite 5.5px;
+}
+
+p{
+    text-indent: 1cm;
+}
+
+h2{
+    text-decoration: dotted underline;
+    color: rgb(73, 48, 79);
+}
+
+.minor-section{
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
