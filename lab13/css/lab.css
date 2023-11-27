@@ -28,3 +28,7 @@ h2{
     background-color: antiquewhite;
     border-radius: 15px;
 }
+
+#output{
+    column-count: 3;
+}
