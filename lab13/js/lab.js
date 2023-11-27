@@ -8,8 +8,32 @@
 
    help from chat gpt
 */
+$("#Fizz").click(function runFizzBuzz() {
+    
+    // output.innerHTML = ""; // Clear previous output
+    
+    for (var i = 1; i <= 200; i++) {
+      var result = "";
+      if (i % 15 ==0) {
+        result +="FizzBuzz<br>";
+      }
+      if (i % 3 === 0) {
+        result += "Fizz<br>";
+      }
+      
+      if (i % 5 === 0) {
+        result += "Buzz<br>";
+      }
+      
+      if (result === "") {
+        result = i + "<br>";
+      }
+      
+      $("#output").append("<br>" + result);
+    }
+})
 
-
+// k(runFizzBuzz())
 
 // // $('#Fizz').click(function(input){
 // function FizzBuzz(){
@@ -37,30 +61,3 @@
 // }
 // }
 // $("#Fizz").click(FizzBuzz())
-
-function runFizzBuzz() {
-    
-    // output.innerHTML = ""; // Clear previous output
-    
-    for (var i = 1; i <= 200; i++) {
-      var result = "";
-      if (i % 15 ==0) {
-        result +="FizzBuzz<br>";
-      }
-      if (i % 3 === 0) {
-        result += "Fizz<br>";
-      }
-      
-      if (i % 5 === 0) {
-        result += "Buzz<br>";
-      }
-      
-      if (result === "") {
-        result = i + "<br>";
-      }
-      
-      $("#output").append("<br>" + result);
-    }
-}
-
-$("#Fizz").click(runFizzBuzz())
