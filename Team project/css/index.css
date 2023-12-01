@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-blend-mode: color-burn;
+    background-color: rgb(206, 221, 237);
+}
+
+#color-mixer {
+    text-align: center;
+    background-color: rgb(148, 163, 177);
+    margin: 10px;
+  padding: 10px;
+}
+
+#mixer-controls {
+    margin: 20px;
+}
+
+#mixed-color-display {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    display: none; /* Hide initially */
+}
+#colorDisplay {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+
+input[type=range] {
+    width: 100%;
+}
+
+input[type="color" i] {
+    border: 1px;
+    outline: none;
+    width: 80px;
+    height: 80px;
+    background: none;
+    box-shadow: none;
+
+   border-radius: 50%;
+    
+}
+#mix-button{
+    margin-top: 20px;
+    scale: 120%;
+    border-radius: 25px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    background-color:rgb(240, 214, 229);
+    border-radius: 25px;
+    padding: 10px;
+
+    
+
+
+}
+
+H2{
+    text-align: center;
+}

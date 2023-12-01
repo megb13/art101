@@ -6,6 +6,16 @@
 //Task 1//
 var myTransport = ["legs", " bus", " bike", " car"]
 
+
+// console.log("My main ride is: " + myMainRide);
+
+// Task 2//
+$("#output").append("Kinds of transportation I use: " + myTransport +"</br>")
+// document.writeln("Kinds of transportation I use: " + myTransport +"</br>");
+
+
+// 
+$(document).ready(function() {
 var myMainRide = {
     make: "schwinn",
     model: "leToure",
@@ -14,13 +24,12 @@ var myMainRide = {
   age:function() {
       return 2023 - this.year;
   }
-}
-console.log("My main ride is: " + myMainRide);
-
-// Task 2//
-
-document.writeln("Kinds of transportation I use: " + myTransport +"</br>");
+};
+$("#output").append("My Main Ride: <pre>" + 
+        JSON.stringify(myMainRide, null, '\t') + "</pre>");
 
 //Try this to print?//
-document.writeln("My Main Ride: <pre>", 
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+// document.writeln("My Main Ride: <pre>", 
+//     JSON.stringify(myMainRide, null, '\t'), "</pre>");
+
+});   

@@ -1,0 +1,22 @@
+
+h1{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+h2{
+    text-align: center;
+}
+#content{
+    border-radius: 25px;
+}
+p{
+    text-align: center;
+}
+
+.minor-section{
+    border: solid;
+    border: dashed 5px;
+}
+

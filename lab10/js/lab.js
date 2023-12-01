@@ -25,10 +25,36 @@ function generateRandomText() {
 
 
   // click listener for button
-  $("#make-convo").click(function(){
-    //  within the function
-    // get new fake dialogue calling back to the function at top
+  // $("#make-convo").click(function(){
+  //   //  within the function
+  //   // get new fake dialogue calling back to the function at top
+  //   const newText = generateRandomText();
+  //   // append a new div to our output div
+  //   $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+  // });
+
+  let clickCount = 0;
+
+// modified click listener for button
+$("#make-convo").click(function(){
+    // get new fake dialogue calling back to the function at the top
     const newText = generateRandomText();
-    // append a new div to our output div
-    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
-  });
+    
+    // Create a new div element with the class "text" and a paragraph containing the generated text
+    const newDiv = $('<div class="text"><p>' + newText + '</p></div>');
+
+    // Alternate the sides based on the click count
+    if (clickCount % 2 === 0) {
+        // For even clicks, add a class to position the text on the left
+        newDiv.addClass('text-left');
+    } else {
+        // For odd clicks, add a class to position the text on the right
+        newDiv.addClass('text-right');
+    }
+
+    // Increment the click count
+    clickCount++;
+
+    // Append the new div to our output div
+    $("#output").append(newDiv);
+});

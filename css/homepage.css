@@ -39,5 +39,13 @@ div{
 
 .lab-links{
   background-color:#f1f5c7;
-  border-radius: 25px;
+  border-radius: 15px;
+
 }
+
+ul{
+  padding: 25px;
+  border: none;
+  margin-top:1px;
+}
+
