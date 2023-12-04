@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:  underline;
+    color: rgb(73, 48, 79);
+}
