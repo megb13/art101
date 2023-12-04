@@ -1,5 +1,5 @@
 // Author: Megan Bustamante
-// Created Deceber 2, 2023
+// Created December 2, 2023
 // 
 
 const ENDPOINT = 
@@ -19,10 +19,12 @@ $("#activate").click(function(){
             outText = results.answer;
 
             $("#output").append("<p>" + outText)
+            // appends yes or no text to output div
         },
         // ^^ending the success function
         error: function(textStatus,errorThrown){
             console.log("Error:", textStatus, errorThrown)
+            // ^^ in case of errors
         }
     })
 // ending the ajax function
